@@ -1,0 +1,549 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script.meta": {
+      "time": 1764604095876.1213
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script": {
+      "time": 1765678978812.6462,
+      "uuid": "f51d27ee-95ea-48dd-b63b-6186bccb6a8c"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\test_scene.scene.meta": {
+      "time": 1764605625082.067
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\test_scene.scene": {
+      "time": 1765696574900.6355,
+      "uuid": "56ec3c93-1365-4ce1-beed-2f03a0b1ffd7"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\scene.scene.meta": {
+      "time": 1764605646302.4375
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\scene.scene": {
+      "time": 1765695239339.2197,
+      "uuid": "8863eda4-6877-40f1-9764-aefbec79b25d"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources.meta": {
+      "time": 1765644590157.6301
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Anim.meta": {
+      "time": 1765644108379.712
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\GUI.meta": {
+      "time": 1765644083194.6582
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image.meta": {
+      "time": 1765644091632.834
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\ImgRuntime.meta": {
+      "time": 1765644130540.5657
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources": {
+      "time": 1765698164235.7144,
+      "uuid": "e7b2c1b0-fd09-4c98-98a9-f1bde51bdc4b"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Anim": {
+      "time": 1765644108367.7124,
+      "uuid": "7b869e12-a92a-4165-99fa-74fb7000a9a4"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\GUI": {
+      "time": 1765695610230.4514,
+      "uuid": "55c580e6-4b38-42a6-ab0b-d698e557f9c5"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image": {
+      "time": 1765698712272.946,
+      "uuid": "169bcdb3-efe6-445a-a163-bcdfc0610441"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\ImgRuntime": {
+      "time": 1765644130538.5654,
+      "uuid": "46f2c9d4-643a-470b-b282-06709ffc8987"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\GUI.meta": {
+      "time": 1764605601331.9287
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\GUI": {
+      "time": 1765696869089.524,
+      "uuid": "63a2b492-9eb8-4154-9d25-dce29c500ad7"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\ts_data.meta": {
+      "time": 1765640079626.2058
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\ts_data\\joker_card_data.ts.meta": {
+      "time": 1765642743409.5083
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\GameLauncher.ts.meta": {
+      "time": 1765644715525.8596
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\helper.meta": {
+      "time": 1764604364729.4475
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\helper\\GUIManager.ts.meta": {
+      "time": 1764604379916.8706
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\GlobalData.ts.meta": {
+      "time": 1764604171196.1328
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\utils.ts.meta": {
+      "time": 1764605543876.382
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\ts_data": {
+      "time": 1765642743401.5083,
+      "uuid": "b8f86c4e-85d9-4697-9eb3-09547ab9eaa3"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\helper": {
+      "time": 1765649306119.3445,
+      "uuid": "4cc0e2cb-4c30-4e6f-be0c-12ad26b0c36b"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\ts_data\\joker_card_data.ts": {
+      "time": 1765642523862.7266,
+      "uuid": "5cf16360-5702-4dae-8407-21be15f334b5"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\GameLauncher.ts": {
+      "time": 1765683032678.6843,
+      "uuid": "7b420212-5b26-4701-ac52-402e52274000"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\helper\\GUIManager.ts": {
+      "time": 1765680498765.115,
+      "uuid": "34c82783-277f-49bc-9a53-2078c3e889c9"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\GlobalData.ts": {
+      "time": 1765648317096.714,
+      "uuid": "c0c5c6a5-1cc6-4c76-b07a-ea8023815f29"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\utils.ts": {
+      "time": 1765679645469.1006,
+      "uuid": "c7010fde-5770-47c5-99f6-433ba7bacb03"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\GUI\\GUIBase.ts.meta": {
+      "time": 1765649306127.3496
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\helper\\Invoker.ts.meta": {
+      "time": 1765649306128.3452
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\helper\\ResourceMgr.ts.meta": {
+      "time": 1765649306128.3452
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\GUI\\GUIBase.ts": {
+      "time": 1765691995988.8806,
+      "uuid": "e2abe790-338c-4858-91d8-c2a4bc7ea4da"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\helper\\Invoker.ts": {
+      "time": 1765682863749.5393,
+      "uuid": "b61d5e7a-3fdf-4b87-8b80-fa9243f36fa5"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\helper\\ResourceMgr.ts": {
+      "time": 1765648247713.813,
+      "uuid": "fcb52ff2-103f-4f02-84dc-a3752abbfab1"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\const.ts.meta": {
+      "time": 1765678978820.6465
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\const.ts": {
+      "time": 1765677637112.8494,
+      "uuid": "c899980d-9cb5-4176-be10-7127c591c389"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\GUI\\GameUI.ts.meta": {
+      "time": 1765679135305.9792
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\GUI\\GameUI.ts": {
+      "time": 1765697039498.3325,
+      "uuid": "c8b4c8c4-2e98-4dd1-b5d3-e5e920b62d15"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\GUI\\GameUI.prefab.meta": {
+      "time": 1765690668349.4004
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\GUI\\GameUI.prefab": {
+      "time": 1765695193897.6018,
+      "uuid": "c6ee8f2a-489e-4296-af5a-2a4564cb3904"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 127.png.meta": {
+      "time": 1765694077423.0537
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 128.png.meta": {
+      "time": 1765694077435.1897
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 129.png.meta": {
+      "time": 1765694077422.016
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 131.png.meta": {
+      "time": 1765694077425.1592
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 132.png.meta": {
+      "time": 1765694077450.1902
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 133.png.meta": {
+      "time": 1765694077466.1895
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 134.png.meta": {
+      "time": 1765694077463.1892
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 135.png.meta": {
+      "time": 1765694077451.1897
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 136.png.meta": {
+      "time": 1765694077480.1895
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 137.png.meta": {
+      "time": 1765694077495.1887
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 153.png.meta": {
+      "time": 1765694077492.1902
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 154.png.meta": {
+      "time": 1765694077508.1912
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 155.png.meta": {
+      "time": 1765694077505.19
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 156.png.meta": {
+      "time": 1765694077526.6711
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 157.png.meta": {
+      "time": 1765694077532.6726
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 158.png.meta": {
+      "time": 1765694077534.672
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 159.png.meta": {
+      "time": 1765694077545.6716
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 160.png.meta": {
+      "time": 1765694077551.672
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 161.png.meta": {
+      "time": 1765694077563.6714
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 163.png.meta": {
+      "time": 1765694077569.6719
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 164.png.meta": {
+      "time": 1765694077572.6726
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 165.png.meta": {
+      "time": 1765694077587.672
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 167.png.meta": {
+      "time": 1765694077592.6714
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 168.png.meta": {
+      "time": 1765694077599.672
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 169.png.meta": {
+      "time": 1765694077608.6714
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 173.png.meta": {
+      "time": 1765694077610.6726
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 174.png.meta": {
+      "time": 1765694077625.6719
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 175.png.meta": {
+      "time": 1765694077630.6714
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 176.png.meta": {
+      "time": 1765694077638.6719
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 178.png.meta": {
+      "time": 1765694077650.672
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 180.png.meta": {
+      "time": 1765694077649.6729
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 181.png.meta": {
+      "time": 1765694077657.6733
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 129.png": {
+      "time": 1765665112000,
+      "uuid": "355ca66a-88a7-42b8-bbfe-31a8dae6e0cb"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 127.png": {
+      "time": 1765665112000,
+      "uuid": "996c3b99-a703-42fa-bdd9-ed96a514fa8c"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 131.png": {
+      "time": 1765665112000,
+      "uuid": "c2d6865c-57c3-4579-9add-974ae4aded15"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 128.png": {
+      "time": 1765665112000,
+      "uuid": "d05c67f1-3012-4e78-b621-c85a3d24bdeb"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 132.png": {
+      "time": 1765665112000,
+      "uuid": "097dad67-c9a7-41d7-9ff6-fec2632d01ef"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 135.png": {
+      "time": 1765665112000,
+      "uuid": "4c116a2f-1e11-4ec3-9997-d7d8b570c609"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 134.png": {
+      "time": 1765665112000,
+      "uuid": "711372eb-9c9d-4dc3-b2a9-a4cd63d32718"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 133.png": {
+      "time": 1765665112000,
+      "uuid": "d171e023-659e-4746-8036-eab7d232ebce"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 136.png": {
+      "time": 1765665112000,
+      "uuid": "b6a2a1c6-ac28-46f5-bfce-9ae1ebe5d86f"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 153.png": {
+      "time": 1765665112000,
+      "uuid": "c2958d0f-f5ea-4334-a118-5e5bd633618a"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 137.png": {
+      "time": 1765665112000,
+      "uuid": "cc8f7ea4-ff0d-46d5-a43e-7c2e3e11246f"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 155.png": {
+      "time": 1765665112000,
+      "uuid": "dbb9b4ac-00c5-467d-aa25-d8e49ccb0eac"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 154.png": {
+      "time": 1765665112000,
+      "uuid": "2ba74976-3157-4de3-addd-ebe0cdd65471"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 156.png": {
+      "time": 1765665112000,
+      "uuid": "b580c425-f641-428f-88b6-05af005eaca0"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 157.png": {
+      "time": 1765665112000,
+      "uuid": "9d3de2b8-8f4a-4028-95e6-f68d3a4cd9e9"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 158.png": {
+      "time": 1765665112000,
+      "uuid": "295a6029-abeb-465c-877b-e1bfcb6861e1"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 159.png": {
+      "time": 1765665112000,
+      "uuid": "63616e87-4bc4-43fa-8918-e3719b21a4cb"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 160.png": {
+      "time": 1765665112000,
+      "uuid": "49dcfbfc-8bdb-41d5-a06d-5f763bfc5581"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 161.png": {
+      "time": 1765665112000,
+      "uuid": "25f7cc9f-6788-434f-b604-05331da5c19b"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 163.png": {
+      "time": 1765665112000,
+      "uuid": "8313b17c-7006-4691-a8d7-4ad7548bafd8"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 164.png": {
+      "time": 1765665112000,
+      "uuid": "9de25eca-0b27-4411-8758-be42c0c9a054"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 165.png": {
+      "time": 1765665112000,
+      "uuid": "6984e724-afbc-4bcf-8a7c-dd35831ccdf0"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 167.png": {
+      "time": 1765665112000,
+      "uuid": "c55c6589-9576-4e9d-bfac-46cbc04e869b"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 168.png": {
+      "time": 1765665112000,
+      "uuid": "f52d2349-a94d-409d-a449-9be0c34d41c3"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 169.png": {
+      "time": 1765665112000,
+      "uuid": "9a714078-6196-4d41-bbf0-9890695cb425"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 173.png": {
+      "time": 1765665112000,
+      "uuid": "0fcf7fd9-601d-409a-8551-bed509c5cc0a"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 174.png": {
+      "time": 1765665112000,
+      "uuid": "19389e56-94ed-4f3f-b5c9-cece68aef4a5"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 175.png": {
+      "time": 1765665112000,
+      "uuid": "8749e889-7782-40c8-bcb7-1f01f9c34c1c"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 176.png": {
+      "time": 1765665112000,
+      "uuid": "c916f3b9-06bb-4ba0-9994-90897b642a8e"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 180.png": {
+      "time": 1765665112000,
+      "uuid": "6e68edc2-3b0f-40a7-b54e-b4747a43475c"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 178.png": {
+      "time": 1765665112000,
+      "uuid": "b9041af9-dbd2-4a08-b51c-db35bcb1ec85"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\Group 181.png": {
+      "time": 1765665112000,
+      "uuid": "6276eb6d-cc40-4e4d-9177-862bd67f2d31"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\big_bg.png.meta": {
+      "time": 1765694634652.1765
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\big_bg.png": {
+      "time": 1765694606197.0542,
+      "uuid": "3af9d8d2-dcb5-4d8d-b752-89f655726cb8"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\GUI\\GameStartUI.prefab.meta": {
+      "time": 1765695610240.4507
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\GUI\\GameStartUI.prefab": {
+      "time": 1765701390192.229,
+      "uuid": "49db6558-e594-4c9d-bf24-0418a86bb7da"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\GUI\\GameStartUI.ts.meta": {
+      "time": 1765696869090.524
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\GUI\\GameStartUI.ts": {
+      "time": 1765696978688.39,
+      "uuid": "0133c792-be1b-4199-9076-6f1fe934e1d9"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\black.png.meta": {
+      "time": 1765697951340.5818
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\black.png": {
+      "time": 1765697900391.5706,
+      "uuid": "0326882e-6485-416b-b487-6e758b10255c"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\FileNode.meta": {
+      "time": 1765698164236.7144
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\FileNode": {
+      "time": 1765698201993.5085,
+      "uuid": "fd113168-d1b2-435b-946c-1ee8e17742c7"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\cards.meta": {
+      "time": 1765698712273.9434
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\cards": {
+      "time": 1765698712274.9424,
+      "uuid": "7c4fbff5-640b-4a3d-b81c-f73ff73f3f99"
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\cards\\card_back_01.png.meta": {
+      "time": 1765698712293.9434
+    },
+    "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\Image\\cards\\card_back_01.png": {
+      "time": 1765698687315.868,
+      "uuid": "cce64c16-8e11-426b-b875-081dddab784e"
+    }
+  },
+  "missing": {
+    "f51d27ee-95ea-48dd-b63b-6186bccb6a8c": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\Scripts",
+      "time": 1764604095875.1208,
+      "removeTime": 1764604119417
+    },
+    "56ec3c93-1365-4ce1-beed-2f03a0b1ffd7": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\scene-2d.scene",
+      "time": 1764605625074.067,
+      "removeTime": 1764605634439
+    },
+    "d95bf249-e672-4ade-8cb4-50a425fdca20": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\client\\ts_data\\client_data",
+      "time": 1765640883169.5615,
+      "removeTime": 1765642743401
+    },
+    "709a639a-528a-4779-940d-1bec4fd6f161": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\client\\ts_data\\client_data\\joker_card_data.ts",
+      "time": 1765641860403.27,
+      "removeTime": 1765642743401
+    },
+    "c6ee8f2a-489e-4296-af5a-2a4564cb3904": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\GUI\\Layout.prefab",
+      "time": 1765690667193.0005,
+      "removeTime": 1765690668342
+    },
+    "30f04c00-b0cc-4ea2-9c2d-d31e35ea15b6": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\prefab",
+      "time": 1765644574760.2124,
+      "removeTime": 1765644580177
+    },
+    "e7b2c1b0-fd09-4c98-98a9-f1bde51bdc4b": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\AssetsPackage",
+      "time": 1765644130539.566,
+      "removeTime": 1765644590153
+    },
+    "7b869e12-a92a-4165-99fa-74fb7000a9a4": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\AssetsPackage\\Anim",
+      "time": 1765644108367.7124,
+      "removeTime": 1765644590153
+    },
+    "55c580e6-4b38-42a6-ab0b-d698e557f9c5": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\AssetsPackage\\GUI",
+      "time": 1765644574760.2124,
+      "removeTime": 1765644590154
+    },
+    "169bcdb3-efe6-445a-a163-bcdfc0610441": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\AssetsPackage\\Image",
+      "time": 1765644091623.8306,
+      "removeTime": 1765644590154
+    },
+    "46f2c9d4-643a-470b-b282-06709ffc8987": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\AssetsPackage\\ImgRuntime",
+      "time": 1765644130538.5654,
+      "removeTime": 1765644590154
+    },
+    "63a2b492-9eb8-4154-9d25-dce29c500ad7": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\client\\GUI",
+      "time": 1764605584239.5466,
+      "removeTime": 1765644835163
+    },
+    "4cc0e2cb-4c30-4e6f-be0c-12ad26b0c36b": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\client\\helper",
+      "time": 1764604379906.8713,
+      "removeTime": 1765644835178
+    },
+    "c0c5c6a5-1cc6-4c76-b07a-ea8023815f29": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\client\\GlobalData.ts",
+      "time": 1764605452623.2444,
+      "removeTime": 1765644835178
+    },
+    "c7010fde-5770-47c5-99f6-433ba7bacb03": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\client\\utils.ts",
+      "time": 1764605423625.2356,
+      "removeTime": 1765644835178
+    },
+    "34c82783-277f-49bc-9a53-2078c3e889c9": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\client\\helper\\GUIManager.ts",
+      "time": 1764605528652.0398,
+      "removeTime": 1765644835178
+    },
+    "b8f86c4e-85d9-4697-9eb3-09547ab9eaa3": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\client\\ts_data",
+      "time": 1765642743401.5083,
+      "removeTime": 1765644835178
+    },
+    "5cf16360-5702-4dae-8407-21be15f334b5": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\client\\ts_data\\joker_card_data.ts",
+      "time": 1765642523862.7266,
+      "removeTime": 1765644835179
+    },
+    "7b420212-5b26-4701-ac52-402e52274000": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\client\\GameLauncher.ts",
+      "time": 1765644768769.617,
+      "removeTime": 1765644835179
+    },
+    "90b0a07c-0e79-4166-ab83-9a3bc40b2d8d": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\client",
+      "time": 1765644835174.7944,
+      "removeTime": 1765644839585
+    },
+    "f6a75046-bc12-4ea7-8098-6cd5ece3fe68": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\client",
+      "time": 1765644979389.9814,
+      "removeTime": 1765645001771
+    },
+    "e6735982-00d7-4ef5-9e6e-a8bc4637febd": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\script\\client\\GameLauncher.ts",
+      "time": 1765644977310.5398,
+      "removeTime": 1765645001771
+    },
+    "8bb9adc0-1309-4933-9022-20dd80cb019c": {
+      "path": "G:\\CocosProject\\JoekrCard\\NewProject\\assets\\resources\\FileNode\\Button.prefab",
+      "time": 1765698174392.38,
+      "removeTime": 1765698201993
+    }
+  }
+}

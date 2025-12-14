@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Group 158",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 372,
+      "height": 123
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 372,
+      "height": 123
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -186,
+        -61.5,
+        0,
+        186,
+        -61.5,
+        0,
+        -186,
+        61.5,
+        0,
+        186,
+        61.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        123,
+        372,
+        123,
+        0,
+        0,
+        372,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -186,
+        "y": -61.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 186,
+        "y": 61.5,
+        "z": 0
+      }
+    },
+    "texture": "295a6029-abeb-465c-877b-e1bfcb6861e1@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

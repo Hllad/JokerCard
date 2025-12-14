@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Group 173",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 133,
+      "height": 126
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 133,
+      "height": 126
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -66.5,
+        -63,
+        0,
+        66.5,
+        -63,
+        0,
+        -66.5,
+        63,
+        0,
+        66.5,
+        63,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        126,
+        133,
+        126,
+        0,
+        0,
+        133,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -66.5,
+        "y": -63,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 66.5,
+        "y": 63,
+        "z": 0
+      }
+    },
+    "texture": "0fcf7fd9-601d-409a-8551-bed509c5cc0a@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}
