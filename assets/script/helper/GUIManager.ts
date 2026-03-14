@@ -1,8 +1,10 @@
-import { _decorator, Component, instantiate, Node, Prefab, resources, js } from 'cc';
+import { _decorator, Component, instantiate, Node, Prefab, resources, js, find } from 'cc';
 import {GlobalData} from '../GlobalData'
 const { ccclass, property } = _decorator;
 import {SingletonBase} from '../utils'
 import { GUIBase } from '../GUI/GUIBase';
+import { UILayer } from '../const';
+
 
 // 组件注册表 - 用于存储组件类
 const componentRegistry: Map<string, typeof Component> = new Map();
@@ -41,10 +43,33 @@ function getComponentClass(componentName: string): typeof Component | null {
 }
 
 export class GUIManager extends SingletonBase<GUIManager> {
-    public gui_map: Map<string, Node> = new Map();
+    public gui_map: Map<string, GUIBase> = new Map();
+    private Root: Node;
+    private LayerParentNode: Map<number, Node> = new Map();
 
-    async openUI(ui_string: string, parent: Node, extra_info?: Map<string, any>): Promise<Component> {
+    createRoot(){
+        resources.load('GUI/Root', Prefab, (err, item) => {
+            if (err) {
+                console.error('Failed to load UI prefab: ', err);
+                return;
+            }
+            // 实例化UI节点
+            this.Root = instantiate(item);
+            const canvas = find('Canvas');
+            canvas.addChild(this.Root);
+            this.LayerParentNode.set(UILayer.BACKGROUND, this.Root.getChildByName('BackGround'));
+            this.LayerParentNode.set(UILayer.NORMAL, this.Root.getChildByName('Normal'));
+            this.LayerParentNode.set(UILayer.TIPS, this.Root.getChildByName('Tips'));
+            this.LayerParentNode.set(UILayer.GUIDE, this.Root.getChildByName('Guide'));
+            this.LayerParentNode.set(UILayer.LOADING, this.Root.getChildByName('Loading'));
+        });
+    }
+
+    async openUI(ui_string: string, ui_layer: number, extra_info?: Map<string, any>): Promise<Component> {
         // 从组件注册表获取组件类
+        if (ui_string in this.gui_map){
+            return;
+        }
         const UIComponent = getComponentClass(ui_string);
         
         if (!UIComponent) {
@@ -70,12 +95,13 @@ export class GUIManager extends SingletonBase<GUIManager> {
                 const uiNode = instantiate(item);
                 
                 // 将节点添加到父节点
+                const parent = this.LayerParentNode.get(ui_layer);
                 parent.addChild(uiNode);
                 
                 // 将脚本component挂载到ui节点上
-                let scriptComponent = uiNode.getComponent(UIComponent);
+                let scriptComponent = uiNode.getComponent(UIComponent) as GUIBase;
                 if (!scriptComponent) {
-                    scriptComponent = uiNode.addComponent(UIComponent);
+                    scriptComponent = uiNode.addComponent(UIComponent) as GUIBase;
                 }
                 
                 // 设置extra_info（如果提供了）
@@ -84,7 +110,7 @@ export class GUIManager extends SingletonBase<GUIManager> {
                 }
                 
                 // 保存到gui_map
-                this.gui_map.set(ui_string, uiNode);
+                this.gui_map.set(ui_string, scriptComponent);
                 
                 // 返回脚本component
                 resolve(scriptComponent);
@@ -97,7 +123,9 @@ export class GUIManager extends SingletonBase<GUIManager> {
     }
 
     closeUI(ui_string){
-        
+        const gui = this.gui_map.get(ui_string);
+        this.gui_map.delete(ui_string);
+        gui.close();
     }
 }
 

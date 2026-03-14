@@ -1,0 +1,611 @@
+{
+  "prefabName": "ModeSelectUI",
+  "root": {
+    "name": "ModeSelectUI",
+    "path": "ModeSelectUI",
+    "active": true,
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "components": [
+      "UITransform",
+      "Layout"
+    ],
+    "children": [
+      {
+        "name": "img_bg",
+        "path": "ModeSelectUI/img_bg",
+        "active": true,
+        "position": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": -11.167,
+          "z": 0
+        },
+        "scale": {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "euler": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "components": [
+          "UITransform",
+          "Sprite",
+          "Button"
+        ],
+        "children": []
+      },
+      {
+        "name": "Panel_top",
+        "path": "ModeSelectUI/Panel_top",
+        "active": true,
+        "position": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": -21.429,
+          "z": 0
+        },
+        "scale": {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "euler": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "components": [
+          "UITransform",
+          "Layout"
+        ],
+        "children": [
+          {
+            "name": "btn_new_game",
+            "path": "ModeSelectUI/Panel_top/btn_new_game",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": -200,
+              "y": 250,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Sprite",
+              "Button"
+            ],
+            "children": [
+              {
+                "name": "Label",
+                "path": "ModeSelectUI/Panel_top/btn_new_game/Label",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Label"
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "btn_continue",
+            "path": "ModeSelectUI/Panel_top/btn_continue",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 250,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Sprite",
+              "Button"
+            ],
+            "children": [
+              {
+                "name": "Label",
+                "path": "ModeSelectUI/Panel_top/btn_continue/Label",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Label"
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "btn_challenge",
+            "path": "ModeSelectUI/Panel_top/btn_challenge",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 200,
+              "y": 250,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Sprite",
+              "Button"
+            ],
+            "children": [
+              {
+                "name": "Label",
+                "path": "ModeSelectUI/Panel_top/btn_challenge/Label",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Label"
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Panel_card",
+        "path": "ModeSelectUI/Panel_card",
+        "active": true,
+        "position": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": -21.429,
+          "z": 0
+        },
+        "scale": {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "euler": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "components": [
+          "UITransform",
+          "Layout"
+        ],
+        "children": [
+          {
+            "name": "Image_bg",
+            "path": "ModeSelectUI/Panel_card/Image_bg",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 93.172,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Sprite"
+            ],
+            "children": []
+          },
+          {
+            "name": "Layout",
+            "path": "ModeSelectUI/Panel_card/Layout",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 93.17200000000003,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Layout"
+            ],
+            "children": [
+              {
+                "name": "Sprite",
+                "path": "ModeSelectUI/Panel_card/Layout/Sprite",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": -196.2,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Sprite"
+                ],
+                "children": []
+              },
+              {
+                "name": "Button",
+                "path": "ModeSelectUI/Panel_card/Layout/Button",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 73.438,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Sprite",
+                  "Button"
+                ],
+                "children": [
+                  {
+                    "name": "Label",
+                    "path": "ModeSelectUI/Panel_card/Layout/Button/Label",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": -12.291,
+                      "y": 49.378,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Label"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Button",
+                    "path": "ModeSelectUI/Panel_card/Layout/Button/Button",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": -25.601,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Sprite",
+                      "Button"
+                    ],
+                    "children": [
+                      {
+                        "name": "Label",
+                        "path": "ModeSelectUI/Panel_card/Layout/Button/Button/Label",
+                        "active": true,
+                        "position": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": -1.113,
+                          "z": 0
+                        },
+                        "scale": {
+                          "__type__": "cc.Vec3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "euler": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "components": [
+                          "UITransform",
+                          "Label"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "btn_start_game",
+        "path": "ModeSelectUI/btn_start_game",
+        "active": true,
+        "position": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": -176.477,
+          "z": 0
+        },
+        "scale": {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "euler": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "components": [
+          "UITransform",
+          "Sprite",
+          "Button"
+        ],
+        "children": [
+          {
+            "name": "Label",
+            "path": "ModeSelectUI/btn_start_game/Label",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Label"
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "btn_back",
+        "path": "ModeSelectUI/btn_back",
+        "active": true,
+        "position": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": -249.334,
+          "z": 0
+        },
+        "scale": {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "euler": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "components": [
+          "UITransform",
+          "Sprite",
+          "Button"
+        ],
+        "children": [
+          {
+            "name": "Label",
+            "path": "ModeSelectUI/btn_back/Label",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Label"
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "totalNodeCount": 21
+}

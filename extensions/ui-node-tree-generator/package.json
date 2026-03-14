@@ -1,0 +1,22 @@
+{
+  "name": "ui-node-tree-generator",
+  "version": "1.0.0",
+  "description": "解析 Prefab 文件并生成 UI 节点树 JSON",
+  "main": "./dist/main.js",
+  "contributions": {
+    "menu": [
+      {
+        "path": "工具/UI节点树",
+        "label": "生成节点树 JSON",
+        "message": "generate"
+      }
+    ],
+    "messages": {
+      "generate": {
+        "methods": ["generateNodeTree"]
+      }
+    }
+  },
+  "author": "Your Name",
+  "editor": ">=3.6.0"
+}

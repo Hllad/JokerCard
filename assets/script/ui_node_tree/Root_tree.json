@@ -1,0 +1,174 @@
+{
+  "prefabName": "Root",
+  "root": {
+    "name": "Root",
+    "path": "Root",
+    "active": true,
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "components": [
+      "UITransform",
+      "Layout",
+      "Widget"
+    ],
+    "children": [
+      {
+        "name": "BackGround",
+        "path": "Root/BackGround",
+        "active": true,
+        "position": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "euler": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "components": [
+          "UITransform",
+          "Layout"
+        ],
+        "children": []
+      },
+      {
+        "name": "Normal",
+        "path": "Root/Normal",
+        "active": true,
+        "position": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "euler": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "components": [
+          "UITransform",
+          "Layout"
+        ],
+        "children": []
+      },
+      {
+        "name": "Tips",
+        "path": "Root/Tips",
+        "active": true,
+        "position": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "euler": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "components": [
+          "UITransform",
+          "Layout"
+        ],
+        "children": []
+      },
+      {
+        "name": "Guide",
+        "path": "Root/Guide",
+        "active": true,
+        "position": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "euler": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "components": [
+          "UITransform",
+          "Layout"
+        ],
+        "children": []
+      },
+      {
+        "name": "Loading",
+        "path": "Root/Loading",
+        "active": true,
+        "position": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "euler": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "components": [
+          "UITransform",
+          "Layout"
+        ],
+        "children": []
+      }
+    ]
+  },
+  "totalNodeCount": 6
+}

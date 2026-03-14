@@ -1,0 +1,2471 @@
+{
+  "prefabName": "GamePlayUI",
+  "root": {
+    "name": "GamePlayUI",
+    "path": "GamePlayUI",
+    "active": true,
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "components": [
+      "UITransform",
+      "Layout"
+    ],
+    "children": [
+      {
+        "name": "img_bg",
+        "path": "GamePlayUI/img_bg",
+        "active": true,
+        "position": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "euler": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "components": [
+          "UITransform",
+          "Sprite"
+        ],
+        "children": []
+      },
+      {
+        "name": "Panel_bottom",
+        "path": "GamePlayUI/Panel_bottom",
+        "active": true,
+        "position": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": -274.194,
+          "z": 0
+        },
+        "scale": {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "euler": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "components": [
+          "UITransform",
+          "Layout"
+        ],
+        "children": [
+          {
+            "name": "Text_card_cnt",
+            "path": "GamePlayUI/Panel_bottom/Text_card_cnt",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Label"
+            ],
+            "children": []
+          },
+          {
+            "name": "Panel_hand_cards",
+            "path": "GamePlayUI/Panel_bottom/Panel_hand_cards",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": -10.86,
+              "y": 70.592,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Layout"
+            ],
+            "children": [
+              {
+                "name": "btn_card_1",
+                "path": "GamePlayUI/Panel_bottom/Panel_hand_cards/btn_card_1",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": -129.643,
+                  "y": 14,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Sprite",
+                  "Button"
+                ],
+                "children": [
+                  {
+                    "name": "Label",
+                    "path": "GamePlayUI/Panel_bottom/Panel_hand_cards/btn_card_1/Label",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Label"
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "btn_card_2",
+                "path": "GamePlayUI/Panel_bottom/Panel_hand_cards/btn_card_2",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": -13,
+                  "y": 14,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Sprite",
+                  "Button"
+                ],
+                "children": [
+                  {
+                    "name": "Label",
+                    "path": "GamePlayUI/Panel_bottom/Panel_hand_cards/btn_card_2/Label",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Label"
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "btn_card_3",
+                "path": "GamePlayUI/Panel_bottom/Panel_hand_cards/btn_card_3",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 104,
+                  "y": 14,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Sprite",
+                  "Button"
+                ],
+                "children": [
+                  {
+                    "name": "Label",
+                    "path": "GamePlayUI/Panel_bottom/Panel_hand_cards/btn_card_3/Label",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Label"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Panel_left_cards",
+            "path": "GamePlayUI/Panel_bottom/Panel_left_cards",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 419.933,
+              "y": 81.453,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Layout"
+            ],
+            "children": [
+              {
+                "name": "btn_left_cards",
+                "path": "GamePlayUI/Panel_bottom/Panel_left_cards/btn_left_cards",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Sprite",
+                  "Button"
+                ],
+                "children": [
+                  {
+                    "name": "Label",
+                    "path": "GamePlayUI/Panel_bottom/Panel_left_cards/btn_left_cards/Label",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Label"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Panel_draw_card",
+        "path": "GamePlayUI/Panel_draw_card",
+        "active": true,
+        "position": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 1.665,
+          "z": 0
+        },
+        "scale": {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "euler": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "components": [
+          "UITransform",
+          "Layout"
+        ],
+        "children": [
+          {
+            "name": "btn_draw_card_1",
+            "path": "GamePlayUI/Panel_draw_card/btn_draw_card_1",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Sprite",
+              "Button"
+            ],
+            "children": [
+              {
+                "name": "Label",
+                "path": "GamePlayUI/Panel_draw_card/btn_draw_card_1/Label",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Label"
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "btn_draw_card_2",
+            "path": "GamePlayUI/Panel_draw_card/btn_draw_card_2",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 110,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Sprite",
+              "Button"
+            ],
+            "children": [
+              {
+                "name": "Label",
+                "path": "GamePlayUI/Panel_draw_card/btn_draw_card_2/Label",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Label"
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "btn_draw_card_3",
+            "path": "GamePlayUI/Panel_draw_card/btn_draw_card_3",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": -110,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Sprite",
+              "Button"
+            ],
+            "children": [
+              {
+                "name": "Label",
+                "path": "GamePlayUI/Panel_draw_card/btn_draw_card_3/Label",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Label"
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "btn_draw_card_4",
+            "path": "GamePlayUI/Panel_draw_card/btn_draw_card_4",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": -220,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Sprite",
+              "Button"
+            ],
+            "children": [
+              {
+                "name": "Label",
+                "path": "GamePlayUI/Panel_draw_card/btn_draw_card_4/Label",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Label"
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "btn_draw_card_5",
+            "path": "GamePlayUI/Panel_draw_card/btn_draw_card_5",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 220,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Sprite",
+              "Button"
+            ],
+            "children": [
+              {
+                "name": "Label",
+                "path": "GamePlayUI/Panel_draw_card/btn_draw_card_5/Label",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Label"
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Panel_jokers",
+        "path": "GamePlayUI/Panel_jokers",
+        "active": true,
+        "position": {
+          "__type__": "cc.Vec3",
+          "x": -10.729,
+          "y": 260.552,
+          "z": 0
+        },
+        "scale": {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "euler": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "components": [
+          "UITransform",
+          "Layout"
+        ],
+        "children": [
+          {
+            "name": "btn_joker_1",
+            "path": "GamePlayUI/Panel_jokers/btn_joker_1",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Sprite",
+              "Button"
+            ],
+            "children": [
+              {
+                "name": "Label",
+                "path": "GamePlayUI/Panel_jokers/btn_joker_1/Label",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Label"
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "btn_joker_2",
+            "path": "GamePlayUI/Panel_jokers/btn_joker_2",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 110,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Sprite",
+              "Button"
+            ],
+            "children": [
+              {
+                "name": "Label",
+                "path": "GamePlayUI/Panel_jokers/btn_joker_2/Label",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Label"
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "btn_joker_3",
+            "path": "GamePlayUI/Panel_jokers/btn_joker_3",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": -110,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Sprite",
+              "Button"
+            ],
+            "children": [
+              {
+                "name": "Label",
+                "path": "GamePlayUI/Panel_jokers/btn_joker_3/Label",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Label"
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Text_joker_cnt",
+            "path": "GamePlayUI/Panel_jokers/Text_joker_cnt",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": -227.164,
+              "y": -88.124,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Label"
+            ],
+            "children": []
+          },
+          {
+            "name": "Panel_function_cards",
+            "path": "GamePlayUI/Panel_jokers/Panel_function_cards",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 397.537,
+              "y": -7.833,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Layout"
+            ],
+            "children": [
+              {
+                "name": "Button",
+                "path": "GamePlayUI/Panel_jokers/Panel_function_cards/Button",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 23.5,
+                  "y": 1.958,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Sprite",
+                  "Button"
+                ],
+                "children": [
+                  {
+                    "name": "Label",
+                    "path": "GamePlayUI/Panel_jokers/Panel_function_cards/Button/Label",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Label"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Panel_game_info",
+        "path": "GamePlayUI/Panel_game_info",
+        "active": true,
+        "position": {
+          "__type__": "cc.Vec3",
+          "x": -454.936,
+          "y": 0,
+          "z": 0
+        },
+        "scale": {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 1,
+          "z": 1
+        },
+        "euler": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "components": [
+          "UITransform",
+          "Layout"
+        ],
+        "children": [
+          {
+            "name": "img_bg",
+            "path": "GamePlayUI/Panel_game_info/img_bg",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Sprite"
+            ],
+            "children": []
+          },
+          {
+            "name": "Panel_boss_info",
+            "path": "GamePlayUI/Panel_game_info/Panel_boss_info",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 249.011,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Layout"
+            ],
+            "children": [
+              {
+                "name": "img_bg_boss_name",
+                "path": "GamePlayUI/Panel_game_info/Panel_boss_info/img_bg_boss_name",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 44.751,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Sprite"
+                ],
+                "children": [
+                  {
+                    "name": "Text_boss_name",
+                    "path": "GamePlayUI/Panel_game_info/Panel_boss_info/img_bg_boss_name/Text_boss_name",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Label"
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "img_bg_boss_skill",
+                "path": "GamePlayUI/Panel_game_info/Panel_boss_info/img_bg_boss_skill",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 0.357,
+                  "y": -57.622,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Sprite"
+                ],
+                "children": [
+                  {
+                    "name": "Sprite",
+                    "path": "GamePlayUI/Panel_game_info/Panel_boss_info/img_bg_boss_skill/Sprite",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": -77.041,
+                      "y": 11.778,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Sprite"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Sprite-001",
+                    "path": "GamePlayUI/Panel_game_info/Panel_boss_info/img_bg_boss_skill/Sprite-001",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 44.258,
+                      "y": 4.283,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Sprite"
+                    ],
+                    "children": [
+                      {
+                        "name": "Label",
+                        "path": "GamePlayUI/Panel_game_info/Panel_boss_info/img_bg_boss_skill/Sprite-001/Label",
+                        "active": true,
+                        "position": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 38.547,
+                          "z": 0
+                        },
+                        "scale": {
+                          "__type__": "cc.Vec3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "euler": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "components": [
+                          "UITransform",
+                          "Label"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Sprite",
+                        "path": "GamePlayUI/Panel_game_info/Panel_boss_info/img_bg_boss_skill/Sprite-001/Sprite",
+                        "active": true,
+                        "position": {
+                          "__type__": "cc.Vec3",
+                          "x": -44.971,
+                          "y": 1.426,
+                          "z": 0
+                        },
+                        "scale": {
+                          "__type__": "cc.Vec3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "euler": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "components": [
+                          "UITransform",
+                          "Sprite"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Label-001",
+                        "path": "GamePlayUI/Panel_game_info/Panel_boss_info/img_bg_boss_skill/Sprite-001/Label-001",
+                        "active": true,
+                        "position": {
+                          "__type__": "cc.Vec3",
+                          "x": 12.849,
+                          "y": 2.499,
+                          "z": 0
+                        },
+                        "scale": {
+                          "__type__": "cc.Vec3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "euler": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "components": [
+                          "UITransform",
+                          "Label"
+                        ],
+                        "children": []
+                      },
+                      {
+                        "name": "Label-002",
+                        "path": "GamePlayUI/Panel_game_info/Panel_boss_info/img_bg_boss_skill/Sprite-001/Label-002",
+                        "active": true,
+                        "position": {
+                          "__type__": "cc.Vec3",
+                          "x": 3.926,
+                          "y": -31.408,
+                          "z": 0
+                        },
+                        "scale": {
+                          "__type__": "cc.Vec3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "euler": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "components": [
+                          "UITransform",
+                          "Label"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "img_bg_round",
+                "path": "GamePlayUI/Panel_game_info/Panel_boss_info/img_bg_round",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": -174.497,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Sprite"
+                ],
+                "children": [
+                  {
+                    "name": "Text_ms",
+                    "path": "GamePlayUI/Panel_game_info/Panel_boss_info/img_bg_round/Text_ms",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": -87.441,
+                      "y": 11.282,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Label"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Text_ms-001",
+                    "path": "GamePlayUI/Panel_game_info/Panel_boss_info/img_bg_round/Text_ms-001",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": -87.441,
+                      "y": -11.283,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Label"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "img_bg",
+                    "path": "GamePlayUI/Panel_game_info/Panel_boss_info/img_bg_round/img_bg",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 35.358,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Sprite"
+                    ],
+                    "children": [
+                      {
+                        "name": "Text_round_score",
+                        "path": "GamePlayUI/Panel_game_info/Panel_boss_info/img_bg_round/img_bg/Text_round_score",
+                        "active": true,
+                        "position": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "scale": {
+                          "__type__": "cc.Vec3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "euler": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "components": [
+                          "UITransform",
+                          "Label"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Panel_card_type",
+            "path": "GamePlayUI/Panel_game_info/Panel_card_type",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": -18.334,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Layout"
+            ],
+            "children": [
+              {
+                "name": "img_bg_card_type_level",
+                "path": "GamePlayUI/Panel_game_info/Panel_card_type/img_bg_card_type_level",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": -2.6409999999999627,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Sprite"
+                ],
+                "children": [
+                  {
+                    "name": "Text_card_type",
+                    "path": "GamePlayUI/Panel_game_info/Panel_card_type/img_bg_card_type_level/Text_card_type",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": -5,
+                      "y": 25.638,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Label"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "Text_card_type_level",
+                    "path": "GamePlayUI/Panel_game_info/Panel_card_type/img_bg_card_type_level/Text_card_type_level",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 5,
+                      "y": 30.464,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Label"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "img_bg_score",
+                    "path": "GamePlayUI/Panel_game_info/Panel_card_type/img_bg_card_type_level/img_bg_score",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": -25,
+                      "y": -22.058,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Sprite"
+                    ],
+                    "children": [
+                      {
+                        "name": "Text_num",
+                        "path": "GamePlayUI/Panel_game_info/Panel_card_type/img_bg_card_type_level/img_bg_score/Text_num",
+                        "active": true,
+                        "position": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "scale": {
+                          "__type__": "cc.Vec3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "euler": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "components": [
+                          "UITransform",
+                          "Label"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "img_bg_ratio",
+                    "path": "GamePlayUI/Panel_game_info/Panel_card_type/img_bg_card_type_level/img_bg_ratio",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 25,
+                      "y": -22.058,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Sprite"
+                    ],
+                    "children": [
+                      {
+                        "name": "Text_num",
+                        "path": "GamePlayUI/Panel_game_info/Panel_card_type/img_bg_card_type_level/img_bg_ratio/Text_num",
+                        "active": true,
+                        "position": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "scale": {
+                          "__type__": "cc.Vec3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "euler": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "components": [
+                          "UITransform",
+                          "Label"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Text_card_type-001",
+                    "path": "GamePlayUI/Panel_game_info/Panel_card_type/img_bg_card_type_level/Text_card_type-001",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": -22.587,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Label"
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Panel_player_info",
+            "path": "GamePlayUI/Panel_game_info/Panel_player_info",
+            "active": true,
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": -217.514,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "euler": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "components": [
+              "UITransform",
+              "Layout"
+            ],
+            "children": [
+              {
+                "name": "btn_game_info",
+                "path": "GamePlayUI/Panel_game_info/Panel_player_info/btn_game_info",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": -93.507,
+                  "y": 78.303,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Sprite",
+                  "Button"
+                ],
+                "children": [
+                  {
+                    "name": "Text_ms",
+                    "path": "GamePlayUI/Panel_game_info/Panel_player_info/btn_game_info/Text_ms",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Label"
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "btn_option",
+                "path": "GamePlayUI/Panel_game_info/Panel_player_info/btn_option",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": -93.507,
+                  "y": -43.308,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Sprite",
+                  "Button"
+                ],
+                "children": [
+                  {
+                    "name": "Text_ms",
+                    "path": "GamePlayUI/Panel_game_info/Panel_player_info/btn_option/Text_ms",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Label"
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "img_bg_draw_card",
+                "path": "GamePlayUI/Panel_game_info/Panel_player_info/img_bg_draw_card",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": -5,
+                  "y": 94.67,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Sprite"
+                ],
+                "children": [
+                  {
+                    "name": "Text_ms",
+                    "path": "GamePlayUI/Panel_game_info/Panel_player_info/img_bg_draw_card/Text_ms",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 20.251,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Label"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "img_bg",
+                    "path": "GamePlayUI/Panel_game_info/Panel_player_info/img_bg_draw_card/img_bg",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": -11.863,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Sprite"
+                    ],
+                    "children": [
+                      {
+                        "name": "Text_draw_num",
+                        "path": "GamePlayUI/Panel_game_info/Panel_player_info/img_bg_draw_card/img_bg/Text_draw_num",
+                        "active": true,
+                        "position": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "scale": {
+                          "__type__": "cc.Vec3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "euler": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "components": [
+                          "UITransform",
+                          "Label"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "img_bg_drop_card",
+                "path": "GamePlayUI/Panel_game_info/Panel_player_info/img_bg_drop_card",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 91.813,
+                  "y": 94.67,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Sprite"
+                ],
+                "children": [
+                  {
+                    "name": "Text_ms",
+                    "path": "GamePlayUI/Panel_game_info/Panel_player_info/img_bg_drop_card/Text_ms",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 20.251,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Label"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "img_bg",
+                    "path": "GamePlayUI/Panel_game_info/Panel_player_info/img_bg_drop_card/img_bg",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": -11.863,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Sprite"
+                    ],
+                    "children": [
+                      {
+                        "name": "Text_drop_num",
+                        "path": "GamePlayUI/Panel_game_info/Panel_player_info/img_bg_drop_card/img_bg/Text_drop_num",
+                        "active": true,
+                        "position": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "scale": {
+                          "__type__": "cc.Vec3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "euler": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "components": [
+                          "UITransform",
+                          "Label"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "img_bg_gold",
+                "path": "GamePlayUI/Panel_game_info/Panel_player_info/img_bg_gold",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 43.292,
+                  "y": 16.489,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Sprite"
+                ],
+                "children": [
+                  {
+                    "name": "img_bg",
+                    "path": "GamePlayUI/Panel_game_info/Panel_player_info/img_bg_gold/img_bg",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Sprite"
+                    ],
+                    "children": [
+                      {
+                        "name": "Text_gold",
+                        "path": "GamePlayUI/Panel_game_info/Panel_player_info/img_bg_gold/img_bg/Text_gold",
+                        "active": true,
+                        "position": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "scale": {
+                          "__type__": "cc.Vec3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "euler": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "components": [
+                          "UITransform",
+                          "Label"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "img_bg_base",
+                "path": "GamePlayUI/Panel_game_info/Panel_player_info/img_bg_base",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": -5,
+                  "y": -61.541,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Sprite"
+                ],
+                "children": [
+                  {
+                    "name": "Text_ms",
+                    "path": "GamePlayUI/Panel_game_info/Panel_player_info/img_bg_base/Text_ms",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 20.251,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Label"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "img_bg",
+                    "path": "GamePlayUI/Panel_game_info/Panel_player_info/img_bg_base/img_bg",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": -11.863,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Sprite"
+                    ],
+                    "children": [
+                      {
+                        "name": "Text_base_num",
+                        "path": "GamePlayUI/Panel_game_info/Panel_player_info/img_bg_base/img_bg/Text_base_num",
+                        "active": true,
+                        "position": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "scale": {
+                          "__type__": "cc.Vec3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "euler": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "components": [
+                          "UITransform",
+                          "Label"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "img_bg_round",
+                "path": "GamePlayUI/Panel_game_info/Panel_player_info/img_bg_round",
+                "active": true,
+                "position": {
+                  "__type__": "cc.Vec3",
+                  "x": 91.813,
+                  "y": -61.541,
+                  "z": 0
+                },
+                "scale": {
+                  "__type__": "cc.Vec3",
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                },
+                "euler": {
+                  "__type__": "cc.Vec3",
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "components": [
+                  "UITransform",
+                  "Sprite"
+                ],
+                "children": [
+                  {
+                    "name": "Text_ms",
+                    "path": "GamePlayUI/Panel_game_info/Panel_player_info/img_bg_round/Text_ms",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 20.251,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Label"
+                    ],
+                    "children": []
+                  },
+                  {
+                    "name": "img_bg",
+                    "path": "GamePlayUI/Panel_game_info/Panel_player_info/img_bg_round/img_bg",
+                    "active": true,
+                    "position": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": -11.863,
+                      "z": 0
+                    },
+                    "scale": {
+                      "__type__": "cc.Vec3",
+                      "x": 1,
+                      "y": 1,
+                      "z": 1
+                    },
+                    "euler": {
+                      "__type__": "cc.Vec3",
+                      "x": 0,
+                      "y": 0,
+                      "z": 0
+                    },
+                    "components": [
+                      "UITransform",
+                      "Sprite"
+                    ],
+                    "children": [
+                      {
+                        "name": "Text_round",
+                        "path": "GamePlayUI/Panel_game_info/Panel_player_info/img_bg_round/img_bg/Text_round",
+                        "active": true,
+                        "position": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "scale": {
+                          "__type__": "cc.Vec3",
+                          "x": 1,
+                          "y": 1,
+                          "z": 1
+                        },
+                        "euler": {
+                          "__type__": "cc.Vec3",
+                          "x": 0,
+                          "y": 0,
+                          "z": 0
+                        },
+                        "components": [
+                          "UITransform",
+                          "Label"
+                        ],
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "totalNodeCount": 86
+}

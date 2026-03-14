@@ -1,0 +1,244 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "LobbyUI_tree",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": {
+    "prefabName": "LobbyUI",
+    "root": {
+      "name": "LobbyUI",
+      "path": "LobbyUI",
+      "active": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "euler": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "components": [
+        "UITransform",
+        "Layout"
+      ],
+      "children": [
+        {
+          "name": "Img_bg",
+          "path": "LobbyUI/Img_bg",
+          "active": true,
+          "position": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "euler": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "components": [
+            "UITransform",
+            "Sprite"
+          ],
+          "children": []
+        },
+        {
+          "name": "Panel_down",
+          "path": "LobbyUI/Panel_down",
+          "active": true,
+          "position": {
+            "x": 0,
+            "y": -262.289,
+            "z": 0
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "euler": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "components": [
+            "UITransform",
+            "Layout",
+            "Widget"
+          ],
+          "children": [
+            {
+              "name": "Img_bg",
+              "path": "LobbyUI/Panel_down/Img_bg",
+              "active": true,
+              "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "euler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "components": [
+                "UITransform",
+                "Sprite"
+              ],
+              "children": []
+            },
+            {
+              "name": "btn_start",
+              "path": "LobbyUI/Panel_down/btn_start",
+              "active": true,
+              "position": {
+                "x": -217.143,
+                "y": 0,
+                "z": 0
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "euler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "components": [
+                "UITransform",
+                "Sprite",
+                "Button"
+              ],
+              "children": [
+                {
+                  "name": "Label",
+                  "path": "LobbyUI/Panel_down/btn_start/Label",
+                  "active": true,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "euler": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "components": [
+                    "UITransform",
+                    "Label"
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "btn_collection",
+              "path": "LobbyUI/Panel_down/btn_collection",
+              "active": true,
+              "position": {
+                "x": 172.85699999999997,
+                "y": 0,
+                "z": 0
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "euler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "components": [
+                "UITransform",
+                "Sprite",
+                "Button"
+              ],
+              "children": [
+                {
+                  "name": "Label",
+                  "path": "LobbyUI/Panel_down/btn_collection/Label",
+                  "active": true,
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                  },
+                  "euler": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "components": [
+                    "UITransform",
+                    "Label"
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "btn_setting",
+              "path": "LobbyUI/Panel_down/btn_setting",
+              "active": true,
+              "position": {
+                "x": -15.714,
+                "y": 0,
+                "z": 0
+              },
+              "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+              },
+              "euler": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+              },
+              "components": [
+                "UITransform",
+                "Sprite",
+                "Button"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    "totalNodeCount": 9
+  }
+}

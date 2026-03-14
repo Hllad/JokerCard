@@ -101,7 +101,7 @@ export class GUIBase extends Component{
         const cmp_name = this.constructor.name;
         if (G.gui_manager.getGUIInstance(cmp_name)){
             G.gui_manager.closeUI(cmp_name);
-        }        
+        }
         else{
             this.node.removeFromParent();
             this.node.destroy()
